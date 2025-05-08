@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Card Grid</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      background-color: #fff;
+    }
+
+    .container {
+      background-color: #f99;
+      padding: 20px;
+      border: 2px solid #e55;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 30px;
+      text-align: center;
+      border: 2px solid #f66;
+    }
+
+    .icon {
+      font-size: 40px;
+      color: orange;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+      color: orange;
+      margin-bottom: 10px;
+    }
+
+    .paragraph {
+      color: orange;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="icon"><i class="fas fa-hammer"></i></div>
+      <div class="title">This is my title</div>
+      <div class="paragraph">This is my paragraph, please subscribe</div>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-user-secret"></i></div>
+      <div class="title">This is my title</div>
+      <div class="paragraph">This is my paragraph, please subscribe</div>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-users"></i></div>
+      <div class="title">This is my title</div>
+      <div class="paragraph">This is my paragraph, please subscribe</div>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-hammer"></i></div>
+      <div class="title">This is my title</div>
+      <div class="paragraph">This is my paragraph, please subscribe</div>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-hammer"></i></div>
+      <div class="title">This is my title</div>
+      <div class="paragraph">This is my paragraph, please subscribe</div>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-hammer"></i></div>
+      <div class="title">This is my title</div>
+      <div class="paragraph">This is my paragraph, please subscribe</div>
+    </div>
+  </div>
+</body>
+</html>
